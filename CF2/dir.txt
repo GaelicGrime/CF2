@@ -1,0 +1,158 @@
+.:
+total 8.0K
+   0 drwxr-xr-x 1 will will  116 Nov 27 23:47 .
+   0 drwxr-xr-x 1 will will  220 Nov 27 21:17 ..
+   0 drwxr-xr-x 1 will will  210 Nov 27 18:50 CLASSES_D
+   0 drwxr-xr-x 1 will will  270 Oct 21 18:20 CONST_D
+   0 drwxr-xr-x 1 will will   44 Oct 20 22:50 DEFS_D
+   0 drwxr-xr-x 1 will will   24 Oct 20 22:50 .FM
+   0 drwxr-xr-x 1 will will  122 Oct 20 22:50 KEYS_D
+   0 drwxr-xr-x 1 will will  524 Nov  1 19:35 SUBM_D
+4.0K -rw-r--r-- 1 will will   52 Oct 20 22:50 CF.py
+4.0K -rw-r--r-- 1 will will 3.9K Oct 20 22:50 CF_TOP.py
+   0 -rw-r--r-- 1 will will    0 Nov 27 23:47 dir.txt
+
+./CLASSES_D:
+total 124K
+   0 drwxr-xr-x 1 will will  210 Nov 27 18:50 .
+   0 drwxr-xr-x 1 will will  116 Nov 27 23:47 ..
+   0 drwxr-xr-x 1 will will  250 Oct 20 22:50 __pycache__
+ 40K -rw-r--r-- 1 will will  39K Oct 21 18:20 _01_APPDS_C.py
+8.0K -rw-r--r-- 1 will will 5.5K Nov 27 22:08 _01_DIALOG_C.py
+ 12K -rw-r--r-- 1 will will  10K Oct 21 18:20 _01_INDEXES.py
+ 20K -rw-r--r-- 1 will will  17K Oct 21 18:20 _01_OPTIONS_C.py
+ 16K -rw-r--r-- 1 will will  16K Oct 21 18:20 _01_PKL_C.py
+ 24K -rw-r--r-- 1 will will  23K Oct 21 18:20 _01_SRI_C.py
+4.0K -rw-r--r-- 1 will will 2.1K Nov 27 18:49 __init__.py
+
+./CLASSES_D/__pycache__:
+total 24K
+   0 drwxr-xr-x 1 will will  250 Oct 20 22:50 .
+   0 drwxr-xr-x 1 will will  210 Nov 27 18:50 ..
+8.0K -rw-r--r-- 1 will will 4.9K Oct 20 22:50 _00_APPDS_C.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 1.9K Oct 20 22:50 _00_OPTIONS_C.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 1.7K Oct 20 22:50 _00_PKL_C.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 3.3K Oct 20 22:50 _00_SRI_C.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  472 Oct 20 22:50 __init__.cpython-39.pyc
+
+./CONST_D:
+total 152K
+   0 drwxr-xr-x 1 will will  270 Oct 21 18:20 .
+   0 drwxr-xr-x 1 will will  116 Nov 27 23:47 ..
+   0 drwxr-xr-x 1 will will 1.1K Nov 25 08:17 __pycache__
+ 12K -rw-r--r-- 1 will will  12K Oct 20 22:50 _00_DAYS.py
+ 24K -rw-r--r-- 1 will will  22K Oct 20 22:50 _00_MARKERS.py
+ 56K -rw-r--r-- 1 will will  55K Oct 20 22:50 _00_NAMES.py
+ 12K -rw-r--r-- 1 will will  12K Oct 20 22:50 _00_VALS.py
+ 24K -rw-r--r-- 1 will will  21K Oct 24 19:43 _01_FILESYSTEM_CONST.py
+ 12K -rw-r--r-- 1 will will 9.6K Oct 20 22:50 _01_TEXTTOOLS.py
+4.0K -rw-r--r-- 1 will will 1.5K Oct 20 22:50 __CHRS.py
+4.0K -rw-r--r-- 1 will will 2.1K Nov 24 05:39 __init__.py
+4.0K -rw-r--r-- 1 will will  858 Oct 20 22:50 __makeDiscrete.py
+
+./CONST_D/__pycache__:
+total 144K
+   0 drwxr-xr-x 1 will will 1.1K Nov 25 08:17 .
+   0 drwxr-xr-x 1 will will  270 Oct 21 18:20 ..
+4.0K -rw-r--r-- 1 will will 3.6K Oct 20 22:50 _00_DAYS.cpython-39.pyc
+ 16K -rw-r--r-- 1 will will  13K Oct 20 22:50 _00_MARKERS.cpython-39.pyc
+8.0K -rw-r--r-- 1 will will 6.7K Oct 20 22:50 _00_NAMES.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 1.9K Oct 20 22:50 _00_NAMES_KEYS.cpython-39.pyc
+8.0K -rw-r--r-- 1 will will 5.3K Oct 24 19:33 _00_VALS.cpython-39.pyc
+ 16K -rw-r--r-- 1 will will  13K Oct 20 22:50 _01_00_MARKERS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 3.1K Oct 20 22:50 _01_00_NAMES.cpython-39.pyc
+8.0K -rw-r--r-- 1 will will 4.9K Oct 20 22:50 _01_00_VALS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 3.8K Oct 24 19:43 _01_FILESYSTEM_CONST.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 3.9K Oct 20 22:50 _01_FILESYSTEM.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 1.3K Oct 20 22:50 _01_FILESYSTEM_KEYS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 1.4K Oct 20 22:50 _01_TEXTTOOLS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  822 Oct 20 22:50 __CHRS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  835 Oct 20 22:50 CHRS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 3.6K Oct 20 22:50 DAYS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  465 Oct 20 22:50 FILESYSTEM.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  727 Oct 20 22:50 HASHES.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  404 Nov 25 08:17 __init__.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 1.6K Oct 20 22:50 INT_TIME.cpython-39.pyc
+ 16K -rw-r--r-- 1 will will  14K Oct 20 22:50 MARKERS.cpython-39.pyc
+8.0K -rw-r--r-- 1 will will 5.1K Oct 20 22:50 NAMES.cpython-39.pyc
+8.0K -rw-r--r-- 1 will will 6.7K Oct 20 22:50 VALS.cpython-39.pyc
+
+./DEFS_D:
+total 4.0K
+   0 drwxr-xr-x 1 will will   44 Oct 20 22:50 .
+   0 drwxr-xr-x 1 will will  116 Nov 27 23:47 ..
+   0 drwxr-xr-x 1 will will   46 Oct 20 22:50 __pycache__
+4.0K -rw-r--r-- 1 will will 2.1K Oct 20 22:50 __init__.py
+
+./DEFS_D/__pycache__:
+total 4.0K
+   0 drwxr-xr-x 1 will will  46 Oct 20 22:50 .
+   0 drwxr-xr-x 1 will will  44 Oct 20 22:50 ..
+4.0K -rw-r--r-- 1 will will 522 Oct 20 22:50 __init__.cpython-39.pyc
+
+./.FM:
+total 0
+0 drwxr-xr-x 1 will will  24 Oct 20 22:50 .
+0 drwxr-xr-x 1 will will 116 Nov 27 23:47 ..
+0 -rw-r--r-- 1 will will   0 Oct 20 22:50 .placeholder
+
+./KEYS_D:
+total 16K
+   0 drwxr-xr-x 1 will will  122 Oct 20 22:50 .
+   0 drwxr-xr-x 1 will will  116 Nov 27 23:47 ..
+   0 drwxr-xr-x 1 will will  172 Oct 24 19:33 __pycache__
+8.0K -rw-r--r-- 1 will will 5.2K Oct 20 22:50 _00_NAMES_KEYS.py
+4.0K -rw-r--r-- 1 will will 2.8K Oct 20 22:50 _01_FILESYSTEM_KEYS.py
+4.0K -rw-r--r-- 1 will will 2.1K Oct 20 22:50 __init__.py
+
+./KEYS_D/__pycache__:
+total 12K
+   0 drwxr-xr-x 1 will will  172 Oct 24 19:33 .
+   0 drwxr-xr-x 1 will will  122 Oct 20 22:50 ..
+4.0K -rw-r--r-- 1 will will 2.1K Oct 20 22:50 _00_NAMES_KEYS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 1.3K Oct 24 19:33 _01_FILESYSTEM_KEYS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  500 Oct 24 19:33 __init__.cpython-39.pyc
+
+./SUBM_D:
+total 228K
+   0 drwxr-xr-x 1 will will  524 Nov  1 19:35 .
+   0 drwxr-xr-x 1 will will  116 Nov 27 23:47 ..
+   0 drwxr-xr-x 1 will will  794 Nov 12 18:43 __pycache__
+ 16K -rw-r--r-- 1 will will  16K Nov  1 19:21 _00_DEBUG.py
+4.0K -rw-r--r-- 1 will will 2.1K Oct 21 18:20 _00_GET_ROOT_DIR.py
+4.0K -rw-r--r-- 1 will will 1.4K Oct 21 18:20 _00_GMT.py
+ 32K -rw-r--r-- 1 will will  29K Oct 20 22:50 _00_ITERABLES.py
+ 16K -rw-r--r-- 1 will will  14K Oct 20 22:50 _00_MAKE_ALL.py
+4.0K -rw-r--r-- 1 will will 1.2K Oct 21 18:20 _00_OS_P.py
+4.0K -rw-r--r-- 1 will will 1.5K Nov  1 19:47 _00_PL_MKDIR.py
+ 12K -rw-r--r-- 1 will will  12K Oct 20 22:50 _00_SHUTIL.py
+ 32K -rw-r--r-- 1 will will  29K Nov 12 18:43 _00_TIME_DT.py
+ 24K -rw-r--r-- 1 will will  22K Oct 20 22:50 _00_TIME_HMS.py
+ 12K -rw-r--r-- 1 will will 9.3K Oct 20 22:50 _00_TIME_INT.py
+4.0K -rw-r--r-- 1 will will  190 Oct 20 22:50 _00_TIME_TIME.py
+ 44K -rw-r--r-- 1 will will  41K Oct 25 00:11 _01_FILESYSTEM.py
+4.0K -rw-r--r-- 1 will will 2.0K Nov  1 19:35 _01_HASHES.py
+4.0K -rw-r--r-- 1 will will   68 Oct 20 22:50 debugPlay.py
+4.0K -rw-r--r-- 1 will will  214 Oct 20 22:50 dir.txt
+4.0K -rw-r--r-- 1 will will 2.3K Oct 20 22:50 __dynamicImport__.py
+4.0K -rw-r--r-- 1 will will 2.1K Oct 20 22:50 __init__.py
+
+./SUBM_D/__pycache__:
+total 68K
+   0 drwxr-xr-x 1 will will  794 Nov 12 18:43 .
+   0 drwxr-xr-x 1 will will  524 Nov  1 19:35 ..
+4.0K -rw-r--r-- 1 will will 2.8K Oct 20 22:50 _00_DEBUG.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  740 Oct 20 22:50 _00_HASHES.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 2.7K Oct 20 22:50 _00_ITERABLES.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  593 Oct 24 19:37 _00_OS_P.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  333 Oct 24 19:43 _00_PL_MKDIR.cpython-39.pyc
+8.0K -rw-r--r-- 1 will will 5.6K Nov 12 18:43 _00_TIME_DT.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 2.7K Oct 20 22:50 _00_TIME_HMS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 1.8K Oct 20 22:50 _00_TIME_INT.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  326 Oct 20 22:50 _00_TIME_TIME.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 1.8K Oct 20 22:50 _01_00_ITERABLES.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 2.2K Oct 20 22:50 _01_DEBUG.cpython-39.pyc
+8.0K -rw-r--r-- 1 will will 7.2K Oct 24 19:33 _01_FILESYSTEM.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will 2.2K Oct 20 22:50 _01_TIME_HMS.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  625 Oct 20 22:50 dynamicImport.cpython-39.pyc
+4.0K -rw-r--r-- 1 will will  500 Oct 20 23:10 __init__.cpython-39.pyc

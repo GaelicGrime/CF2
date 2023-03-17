@@ -1,0 +1,209 @@
+<!--
+Have you read Atom's Code of Conduct? By filing an Issue, you are expected to comply with it, including treating everyone with respect: https://github.com/atom/.github/blob/master/CODE_OF_CONDUCT.md
+
+Do you want to ask a question? Are you looking for support? The Atom message board is the best place for getting support: https://discuss.atom.io
+-->
+
+### Prerequisites
+
+* [ ] Put an X between the brackets on this line if you have done all of the following:
+    * Reproduced the problem in Safe Mode: <https://flight-manual.atom.io/hacking-atom/sections/debugging/#using-safe-mode>
+    * Followed all applicable steps in the debugging guide: <https://flight-manual.atom.io/hacking-atom/sections/debugging/>
+    * Checked the FAQs on the message board for common solutions: <https://discuss.atom.io/c/faq>
+    * Checked that your issue isn't already filed: <https://github.com/issues?q=is%3Aissue+user%3Aatom>
+    * Checked that there is not already an Atom package that provides the described functionality: <https://atom.io/packages>
+
+### Description
+
+<!-- Description of the issue -->
+
+### Steps to Reproduce
+
+1. <!-- First Step -->
+2. <!-- Second Step -->
+3. <!-- and so on… -->
+
+**Expected behavior:**
+
+<!-- What you expect to happen -->
+
+**Actual behavior:**
+
+<!-- What actually happens -->
+
+### Versions
+
+**Atom**: 1.61.0-beta0 x64
+**Electron**: 11.4.12
+**OS**: linux 5.17.2-arch2-1
+**Thrown From**: [ide-python](https://github.com/lgeiger/ide-python) package 1.9.7
+
+
+### Stack Trace
+
+Failed to activate the ide-python package
+
+```
+At call.getFileName is not a function
+
+TypeError: call.getFileName is not a function
+    at getErrMessage (assert.js:278:25)
+    at innerOk (assert.js:372:17)
+    at ok (assert.js:392:3)
+    at /packages/ide-python/node_modules/@atom-ide-community/nuclide-commons-ui/Dropdown.js:45:21)
+    at /packages/ide-python/node_modules/@atom-ide-community/nuclide-commons-ui/Dropdown.js:305:3)
+    at Module.get_Module._compile (/usr/lib/atom/resources/app/static/<embedded>:11:149913)
+    at Object.value [as .js] (/usr/lib/atom/resources/app/static/<embedded>:11:153507)
+    at Module.load (internal/modules/cjs/loader.js:992:32)
+    at Module._load (internal/modules/cjs/loader.js:885:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12633)
+    at Module.require (/app.asar/static/index.js:72:46)
+    at require (/usr/lib/atom/resources/app/static/<embedded>:11:149229)
+    at /packages/ide-python/node_modules/@atom-ide-community/nuclide-debugger-common/AutoGenLaunchAttachUiComponent.js:16:17)
+    at /packages/ide-python/node_modules/@atom-ide-community/nuclide-debugger-common/AutoGenLaunchAttachUiComponent.js:519:3)
+    at Module.get_Module._compile (/usr/lib/atom/resources/app/static/<embedded>:11:149913)
+    at Object.value [as .js] (/usr/lib/atom/resources/app/static/<embedded>:11:153507)
+    at Module.load (internal/modules/cjs/loader.js:992:32)
+    at Module._load (internal/modules/cjs/loader.js:885:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12633)
+    at Module.require (/app.asar/static/index.js:72:46)
+    at require (/usr/lib/atom/resources/app/static/<embedded>:11:149229)
+    at /packages/ide-python/node_modules/@atom-ide-community/nuclide-debugger-common/AutoGenLaunchAttachProvider.js:14:62)
+    at /packages/ide-python/node_modules/@atom-ide-community/nuclide-debugger-common/AutoGenLaunchAttachProvider.js:109:3)
+    at Module.get_Module._compile (/usr/lib/atom/resources/app/static/<embedded>:11:149913)
+    at Object.value [as .js] (/usr/lib/atom/resources/app/static/<embedded>:11:153507)
+    at Module.load (internal/modules/cjs/loader.js:992:32)
+    at Module._load (internal/modules/cjs/loader.js:885:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12633)
+    at Module.require (/app.asar/static/index.js:72:46)
+    at require (/usr/lib/atom/resources/app/static/<embedded>:11:149229)
+    at /packages/ide-python/dist/debugger/main.js:16:36)
+    at /packages/ide-python/dist/debugger/main.js:161:3)
+    at Module.get_Module._compile (/usr/lib/atom/resources/app/static/<embedded>:11:149913)
+    at Object.value [as .js] (/usr/lib/atom/resources/app/static/<embedded>:11:153507)
+    at Module.load (internal/modules/cjs/loader.js:992:32)
+    at Module._load (internal/modules/cjs/loader.js:885:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12633)
+    at Module.require (/app.asar/static/index.js:72:46)
+    at require (/usr/lib/atom/resources/app/static/<embedded>:11:149229)
+    at /packages/ide-python/dist/main.js:3:13)
+    at /packages/ide-python/dist/main.js:174:3)
+    at Module.get_Module._compile (/usr/lib/atom/resources/app/static/<embedded>:11:149913)
+    at Object.value [as .js] (/usr/lib/atom/resources/app/static/<embedded>:11:153507)
+    at Module.load (internal/modules/cjs/loader.js:992:32)
+    at Module._load (internal/modules/cjs/loader.js:885:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12633)
+    at Module.require (/app.asar/static/index.js:72:46)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at customRequire (/usr/lib/atom/resources/app/static/<embedded>:1:756277)
+    at requireModule (/usr/lib/atom/resources/app/static/<embedded>:14:1205795)
+    at Package.requireMainModule (/usr/lib/atom/resources/app/static/<embedded>:11:3184054)
+    at Package.activateNow (/usr/lib/atom/resources/app/static/<embedded>:11:3172053)
+    at /usr/lib/atom/resources/app/static/<embedded>:14:2607
+    at Function.simpleDispatch (/usr/lib/atom/resources/app/static/<embedded>:11:1187641)
+    at Emitter.emit (/usr/lib/atom/resources/app/static/<embedded>:11:1189082)
+    at PackageManager.triggerDeferredActivationHooks (/usr/lib/atom/resources/app/static/<embedded>:11:386501)
+    at /usr/lib/atom/resources/app/static/<embedded>:11:385252
+```
+
+### Commands
+
+```
+```
+
+### Non-Core Packages
+
+```
+atom-html-preview 0.2.7 
+atom-ide-base 3.4.0 
+atom-ide-code-format 1.0.3 
+atom-ide-datatip 0.25.0 
+atom-ide-definitions 0.4.2 
+atom-ide-hyperclick 1.0.11 
+atom-ide-markdown-service 2.1.0 
+atom-ide-outline 3.2.0 
+atom-ide-signature-help 0.16.0 
+atom-ide-ui 0.13.0 
+atom-keyboard-macros 0.12.1 
+atom-shell-commands 1.5.0 
+atom-svn-commit 0.1.1 
+atomic-management 0.4.2 
+auto-update-plus 0.11.4 
+autocomplete-python 1.17.1 
+browse 3.8.0 
+buildium 0.75.5 
+busy-signal 2.0.1 
+Chromo-Color-Previews 1.8.3 
+Chromodynamics 0.0.11 
+cson 2.0.1 
+ctrl-dir-scroll 0.2.5 
+custom-folds 1.9.5 
+editor-settings 1.1.3 
+editorconfig 2.6.1 
+file-watcher 2.0.0 
+git-history 3.3.0 
+git-time-machine 2.1.0 
+highlight-line 0.12.0 
+highlight-selected 0.17.0 
+ide-json 0.2.1 
+ide-python 1.9.7 
+indent-sort 0.5.0 
+intentions 2.1.1 
+iv-terminal 1.3.1 
+kite 0.206.0 
+language-arduino 0.4.3 
+language-lsl 2.2.0 
+language-lua 0.9.11 
+language-markdown 0.37.0 
+language-restructuredtext 1.1.2 
+language-unix-shell 0.40.1 
+language-lsl 2.2.0 
+linter 3.4.0 
+linter-coffeescript 1.0.0 
+linter-pylint 2.1.1 
+linter-spell 0.15.0 
+linter-spell-project 0.2.0 
+linter-spell-rst 0.4.0 
+linter-spell-shellscript 0.2.0 
+linter-ui-default 3.4.1 
+MagicPython 1.1.1 
+mariana-syntax 0.2.0 
+markdown-pdf 2.3.3 
+markdown-writer 2.11.12 
+minimap 4.40.1 
+multi-cursor 3.0.0 
+node_modules undefined 
+nyan-indent 0.9.8 
+package-control 0.12.6 
+pretty-json 2.1.2 
+preview-plus 1.2.7 
+rainbow-delimiters 2.1.2 
+rst-preview-pandoc 0.1.12 
+script 3.32.2 
+scroll-through-time 0.3.1 
+service-fetch 0.3.2 
+set-syntax 0.4.0 
+snippets-plus 0.12.0 
+sort-lines 0.19.0 
+split-diff 1.6.1 
+sublime 0.9.0 
+sublime-block-comment 0.5.1 
+Sublime-Style-Column-Selection 1.7.5 
+sublime-word-navigation 0.2.1 
+sublimify 0.10.0 
+svn 0.0.14 
+sync-on-save 0.1.5 
+sync-settings 5.2.15 
+sync-settings-git-location 1.1.15 
+tabs-to-spaces 1.0.5 
+tag 0.5.0 
+text-manipulation 0.6.0 
+tool-bar 1.4.4 
+tool-bar-markdown-writer 0.5.1 
+wrapperizer 0.5.0 
+xml-formatter 0.13.0 
+```
+
+### Additional Information
+
+<!-- Any additional information, configuration or data that might be necessary to reproduce the issue. -->
