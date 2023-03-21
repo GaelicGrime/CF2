@@ -3,19 +3,19 @@
 #
 #
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
-# * start of CF.SUBM_D._01_FILESYSTEM.py
+# * start of CSCF.SUBM_D._01_FILESYSTEM.py
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
 #
 #
 # CFFS
 
 
-from CF2.CONST_D import (
+from CSCF.CONST_D import (
     _00_VALS as V,
     _01_FILESYSTEM_CONST as CF_FSC,
 )
-from CF2.KEYS_D import _01_FILESYSTEM_KEYS as CF_FSK  # was CFFS_K
-from CF2.SUBM_D import (
+from CSCF.KEYS_D import _01_FILESYSTEM_KEYS as CF_FSK  # was CFFS_K
+from CSCF.SUBM_D import (
     _00_OS as CF_OS,
     _00_PL_MKDIR as CF_PLMD,
 )
@@ -32,10 +32,10 @@ from CF2.SUBM_D import (
 def setFromCF():
   # fold here ⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1⟱1
   for thisType_ in WHATTODO:
-    WHATTODO[thisType_] = CF.OPTIONSDICT[thisType_]
+    WHATTODO[thisType_] = CSCF.OPTIONSDICT[thisType_]
 
   for thisType_ in SPREADS:
-    SPREADS[thisType_] = CF.OPTIONSDICT[thisType_]
+    SPREADS[thisType_] = CSCF.OPTIONSDICT[thisType_]
 
   # fold here ⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1
 

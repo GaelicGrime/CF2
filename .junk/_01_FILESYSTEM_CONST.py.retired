@@ -3,7 +3,7 @@
 #
 #
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
-# * start of CF.CONST_D._01_FILESYSTEM_CONST
+# * start of CSCF.CONST_D._01_FILESYSTEM_CONST
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
 #
 #
@@ -15,8 +15,8 @@ import re as RE
 import shutil as SHU
 
 
-from CF2.KEYS_D import _01_FILESYSTEM_KEYS as CF_FSK
-from CF2.SUBM_D import _00_OS as CF_OS
+from CSCF.KEYS_D import _01_FILESYSTEM_KEYS as CF_FSK
+from CSCF.SUBM_D import _00_OS as CF_OS
 
 
 CHMOD = OS.chmod
@@ -51,7 +51,7 @@ EQUIVEXTENSIONS = {  # an empty entry tupdict+function for each file/directory
 }
 
 
-EXTENSIONBOOLS = {  # dict holding the process or not bools pulled from CF2.OPTIONSDICT, not built by FM.py
+EXTENSIONBOOLS = {  # dict holding the process or not bools pulled from CSCF.OPTIONSDICT, not built by FM.py
 }
 
 

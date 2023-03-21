@@ -1,6 +1,6 @@
 
 
-from CF2.SUBM_D import (
+from CSCF.SUBM_D import (
     _00_VALS_IN as CF_V,
 )
 import PySimpleGUI as SG

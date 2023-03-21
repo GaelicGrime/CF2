@@ -1,4 +1,5 @@
 {
+  "files.autoSave": "onWindowChange",
   "python.linting.enabled": true,
   "python.linting.pylamaEnabled": false,
   "python.linting.pylintEnabled": true

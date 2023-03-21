@@ -207,24 +207,24 @@
 
 [
   {
-    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/CF.py",
-    "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF",
-    "K_FILENAME": "CF.py",
-    "K_JUST_FILENAME": "CF",
+    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/CSCF.py",
+    "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF",
+    "K_FILENAME": "CSCF.py",
+    "K_JUST_FILENAME": "CSCF",
     "K_EXTENSION": ".py",
     "K_NUMS": -1
   },
   {
-    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/__init__.py",
-    "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF",
+    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/__init__.py",
+    "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF",
     "K_FILENAME": "__init__.py",
     "K_JUST_FILENAME": "__init__",
     "K_EXTENSION": ".py",
     "K_NUMS": -1
   },
   {
-    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/__INIT__.py",
-    "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF",
+    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/__INIT__.py",
+    "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF",
     "K_FILENAME": "__INIT__.py",
     "K_JUST_FILENAME": "__INIT__",
     "K_EXTENSION": ".py",
@@ -235,26 +235,26 @@
 
 [
   {
-    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_ITERABLES.py",
-    "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D",
+    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_ITERABLES.py",
+    "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D",
     "K_FILENAME": "_00_ITERABLES.py",
     "K_JUST_FILENAME": "_00_ITERABLES",
     "K_EXTENSION": ".py",
-    "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_MAKE_ALL.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_MAKE_ALL.py", "K_JUST_FILENAME": "_00_MAKE_ALL", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_PL_MKDIR.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_PL_MKDIR.py", "K_JUST_FILENAME": "_00_PL_MKDIR", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_SHUTIL.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_SHUTIL.py", "K_JUST_FILENAME": "_00_SHUTIL", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_TIME_DT.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_TIME_DT.py", "K_JUST_FILENAME": "_00_TIME_DT", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_TIME_HMS.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_TIME_HMS.py", "K_JUST_FILENAME": "_00_TIME_HMS", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_TIME_INT.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_TIME_INT.py", "K_JUST_FILENAME": "_00_TIME_INT", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_TIME_TIME.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_TIME_TIME.py", "K_JUST_FILENAME": "_00_TIME_TIME", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/__dynamicImport__.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "__dynamicImport__.py", "K_JUST_FILENAME": "__dynamicImport__", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/__init__.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "__init__.py", "K_JUST_FILENAME": "__init__", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/debugPlay.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "debugPlay.py", "K_JUST_FILENAME": "debugPlay", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_DEBUG.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_DEBUG.py", "K_JUST_FILENAME": "_00_DEBUG", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_GET_ROOT_DIR.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_GET_ROOT_DIR.py", "K_JUST_FILENAME": "_00_GET_ROOT_DIR", "K_EXTENSION": ".py", "K_NUMS": 0
+    "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_MAKE_ALL.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_MAKE_ALL.py", "K_JUST_FILENAME": "_00_MAKE_ALL", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_PL_MKDIR.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_PL_MKDIR.py", "K_JUST_FILENAME": "_00_PL_MKDIR", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_SHUTIL.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_SHUTIL.py", "K_JUST_FILENAME": "_00_SHUTIL", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_TIME_DT.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_TIME_DT.py", "K_JUST_FILENAME": "_00_TIME_DT", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_TIME_HMS.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_TIME_HMS.py", "K_JUST_FILENAME": "_00_TIME_HMS", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_TIME_INT.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_TIME_INT.py", "K_JUST_FILENAME": "_00_TIME_INT", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_TIME_TIME.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_TIME_TIME.py", "K_JUST_FILENAME": "_00_TIME_TIME", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/__dynamicImport__.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "__dynamicImport__.py", "K_JUST_FILENAME": "__dynamicImport__", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/__init__.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "__init__.py", "K_JUST_FILENAME": "__init__", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/debugPlay.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "debugPlay.py", "K_JUST_FILENAME": "debugPlay", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_DEBUG.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_DEBUG.py", "K_JUST_FILENAME": "_00_DEBUG", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_GET_ROOT_DIR.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_GET_ROOT_DIR.py", "K_JUST_FILENAME": "_00_GET_ROOT_DIR", "K_EXTENSION": ".py", "K_NUMS": 0
   },
   {
-    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_GMT.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_GMT.py", "K_JUST_FILENAME": "_00_GMT", "K_EXTENSION": ".py", "K_NUMS": 0
+    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_GMT.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_GMT.py", "K_JUST_FILENAME": "_00_GMT", "K_EXTENSION": ".py", "K_NUMS": 0
   },
   {
-    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_01_FILESYSTEM.py",
-    "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D",
+    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_01_FILESYSTEM.py",
+    "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D",
     "K_FILENAME": "_01_FILESYSTEM.py",
     "K_JUST_FILENAME": "_01_FILESYSTEM",
     "K_EXTENSION": ".py",
     "K_NUMS": 1
   },
   {
-    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_01_HASHES.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_01_HASHES.py", "K_JUST_FILENAME": "_01_HASHES", "K_EXTENSION": ".py", "K_NUMS": 1}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_STRING_STUFF.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_STRING_STUFF.py", "K_JUST_FILENAME": "_00_STRING_STUFF", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_PATHLIB.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_PATHLIB.py", "K_JUST_FILENAME": "_00_PATHLIB", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_SCREEN.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_SCREEN.py", "K_JUST_FILENAME": "_00_SCREEN", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_OS.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_OS.py", "K_JUST_FILENAME": "_00_OS", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D/_00_OS_VARS.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CF/CF/SUBM_D", "K_FILENAME": "_00_OS_VARS.py", "K_JUST_FILENAME": "_00_OS_VARS", "K_EXTENSION": ".py", "K_NUMS": 0}]
+    "K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_01_HASHES.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_01_HASHES.py", "K_JUST_FILENAME": "_01_HASHES", "K_EXTENSION": ".py", "K_NUMS": 1}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_STRING_STUFF.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_STRING_STUFF.py", "K_JUST_FILENAME": "_00_STRING_STUFF", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_PATHLIB.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_PATHLIB.py", "K_JUST_FILENAME": "_00_PATHLIB", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_SCREEN.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_SCREEN.py", "K_JUST_FILENAME": "_00_SCREEN", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_OS.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_OS.py", "K_JUST_FILENAME": "_00_OS", "K_EXTENSION": ".py", "K_NUMS": 0}, {"K_PATH": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D/_00_OS_VARS.py", "K_DIR": "/rcr/0-sourceCode/0-development/0-python/CSCF/CSCF/SUBM_D", "K_FILENAME": "_00_OS_VARS.py", "K_JUST_FILENAME": "_00_OS_VARS", "K_EXTENSION": ".py", "K_NUMS": 0}]
 
 
 _entry_

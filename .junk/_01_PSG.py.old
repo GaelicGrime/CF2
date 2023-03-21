@@ -1,6 +1,6 @@
 
 
-from CF2.SUBM_D import _01_PSG_VARS as V
+from CSCF.SUBM_D import _01_PSG_VARS as V
 
 
 V.V = V

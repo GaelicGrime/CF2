@@ -3,7 +3,7 @@
 #
 #
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
-# * start of CF.setup.py
+# * start of CSCF.setup.py
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
 #
 #
@@ -17,13 +17,13 @@ setup(
   author="GaelicGrime",
   author_email="will.angus.blaylock@gmail.com",
   license="GPLv3",
-  name="CS-CF2",
-  provides="CF",
+  name="CSCF",
+  provides="CSCF",
   url="https://github.com/ComfortableSoftware/commonFunctions_py",
-  version="1!0.1.0a1",
-  package_dir={"CF2": "CF2"},
+  version="0.2.1",
+  package_dir={"CSCF": "CSCF"},
   package_data={
-      "CF2": [
+      "CSCF": [
           "../doc/*",
           "CLASSES_D/*",
           "CONST_D/*",
