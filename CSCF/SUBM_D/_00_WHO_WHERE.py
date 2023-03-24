@@ -28,7 +28,7 @@ def whereStr(
   _strToRtn_ = ""
   _myFilename_ = _stack_[skipFrames_ - 1][1]
   _stackEntry_ = _stack_.pop(skipFrames_)
-  return f"""File: {_stackEntry_[1]} Line: {_stackEntry_[2]} Func: {_stackEntry_[3]}"""
+  return f"""WHERE: {INDENT_IN}{INDENT_IN} File: {_stackEntry_[1]} Line: {_stackEntry_[2]} Func: {_stackEntry_[3]}"""
   # ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1
 
 

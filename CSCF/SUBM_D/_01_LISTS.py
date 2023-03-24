@@ -13,8 +13,17 @@ class list1_C():
   def __init__(self):
     self.L = []
 
+  def __enter__(self):
+    return self
+
+  def __exit__(self, *args_):
+    pass
+
   def reset(self):
-    self.L = []
+    self.L.clear()
+
+  def length(self):
+    return len(self.L)
 
   def str(self, *,
         recursive_=False,
@@ -25,3 +34,9 @@ class list1_C():
         objectToStr_=_thisElement_,
         recursive_=recursive_,
       )
+
+
+
+
+
+#

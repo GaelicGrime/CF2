@@ -238,6 +238,26 @@ def myType(objToType_):
   return _strToRtn_
   # ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1
 
+
+def PD(*,
+      numToPadTo_=17,
+      padChr_="…",
+      STP_,
+    ):
+  _strLen_ = len(STP_)
+  _strToRtn_ = ""
+
+  if (
+      (_strLen_ > numToPadTo_)
+  ):
+    _strToRtn_ = STP_[:16] + padChr_
+  else:
+    _numToAdd_ = numToPadTo_ - _strLen_
+    _strToRtn_ = STP_ + (padChr_ * _numToAdd_)
+  return _strToRtn_.upper()
+
+
+
 ALL_THE_VALS = {
   "BIN04": BIN04,
   "BIN08": BIN08,
@@ -291,6 +311,7 @@ ALL_THE_VALS = {
   "OBRCE": OBRCE,
   "OBRKT": OBRKT,
   "OPAREN": OPAREN,
+  "PD": PD,
   "QTSET": QTSET,
   "READ_FILE_TO_STR": readFileToStr,
   "RNDCHRS": RNDCHRS,

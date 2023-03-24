@@ -22,6 +22,19 @@ HASH_SHA3_512 = HL.sha3_512()  # 64 byte hash
 HASH_SHA384 = HL.sha384()  # 48 byte hash",),
 HASH_SHA512 = HL.sha512()  # 64 byte hash",),
 
+HASH_F_BLAKE2B = HL.blake2b  # 64 byte fast hash
+HASH_F_BLAKE2S = HL.blake2s  # 32 byte fast hash
+HASH_F_MD5 = HL.md5  # 16 byte fastest hash, most likely to collide
+HASH_F_SHA1 = HL.sha1  # 20 byte hash
+HASH_F_SHA224 = HL.sha224  # 28 byte hash
+HASH_F_SHA256 = HL.sha256  # 32 byte hash
+HASH_F_SHA3_224 = HL.sha3_224  # 28 byte hash
+HASH_F_SHA3_256 = HL.sha3_256  # 32 byte hash
+HASH_F_SHA3_384 = HL.sha3_384  # 48 byte hash
+HASH_F_SHA3_512 = HL.sha3_512  # 64 byte hash
+HASH_F_SHA384 = HL.sha384  # 48 byte hash",),
+HASH_F_SHA512 = HL.sha512  # 64 byte hash",),
+
 
 ALL_THE_HASHES = {
   "HASH_BLAKE2B": HASH_BLAKE2B,
@@ -36,6 +49,18 @@ ALL_THE_HASHES = {
   "HASH_SHA3_512": HASH_SHA3_512,
   "HASH_SHA384": HASH_SHA384,
   "HASH_SHA512": HASH_SHA512,
+  "HASH_F_BLAKE2B": HASH_F_BLAKE2B,
+  "HASH_F_BLAKE2S": HASH_F_BLAKE2S,
+  "HASH_F_MD5": HASH_F_MD5,
+  "HASH_F_SHA1": HASH_F_SHA1,
+  "HASH_F_SHA224": HASH_F_SHA224,
+  "HASH_F_SHA256": HASH_F_SHA256,
+  "HASH_F_SHA3_224": HASH_F_SHA3_224,
+  "HASH_F_SHA3_256": HASH_F_SHA3_256,
+  "HASH_F_SHA3_384": HASH_F_SHA3_384,
+  "HASH_F_SHA3_512": HASH_F_SHA3_512,
+  "HASH_F_SHA384": HASH_F_SHA384,
+  "HASH_F_SHA512": HASH_F_SHA512,
 }
 
 

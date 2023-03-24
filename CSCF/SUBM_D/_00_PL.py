@@ -58,7 +58,7 @@ JOIN = OSPATH.join
 L_EXISTS = OSPATH.lexists
 LN = OS.link
 LNS = OS.symlink
-LPATH = LPATH_
+PL = LPATH_
 # MIME_TYPE = MIME.from_file
 MKDIR = OS.mkdir
 # MKDIRS = OS.makedirs
@@ -353,7 +353,7 @@ def filteredLpathGlobList(*,
 ):
   # 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱
   _listToRtn_ = []
-  for _thisItem_ in LPATH(rootDir_).glob("**/**/*"):
+  for _thisItem_ in PLP(rootDir_).glob("**/**/*"):
     _thisItem_ = str(_thisItem_)
     if (
         (filterStr(
@@ -373,7 +373,7 @@ def filteredLpathGlobListPieces(*,
 ):
   # 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱
   _listToRtn_ = []
-  for _thisItem_ in sorted(LPATH(rootDir_).glob("**/**/*")):
+  for _thisItem_ in sorted(PLP(rootDir_).glob("**/**/*")):
     _thisItem_ = str(_thisItem_)
     if (
         (filterStr(
@@ -821,7 +821,7 @@ def getStat(*,
   _thisShortEntry_ = filePieces(
       source_=filename_,
   )
-  _thisFileInf_ = LPATH(filename_)
+  _thisFileInf_ = PLP(filename_)
   _dictToRtn_ = V.E_ENTRY()
   _dictToRtn_.update(_thisShortEntry_)
 

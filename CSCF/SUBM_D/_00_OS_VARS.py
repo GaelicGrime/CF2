@@ -45,7 +45,6 @@ ALL_THE_KEYS = {
   "K_DEFAULT": "K_DEFAULT",
   "K_DIR": "K_DIR",
   "K_ERROR_CONDITION": "K_ERROR_CONDITION",
-  "K_ERROR_FILENAME": "K_ERROR_FILENAME",
   "K_ERROR_TEXT": "K_ERROR_TEXT",
   "K_EXTENSION": "K_EXTENSION",
   "K_F_OK": OS.F_OK,
@@ -123,7 +122,6 @@ PL_ENTRY_TUP = (
     (K_BLOCKS_ALLOCATED, 0),
     (K_DIR, ""),  # Just the directory portion of the path.
     (K_ERROR_CONDITION, False),
-    (K_ERROR_FILENAME, ""),
     (K_ERROR_TEXT, ""),
     (K_EXTENSION, ""),  # Just the extension
     (K_FILENAME, ""),  # The filename and extension.
@@ -167,7 +165,6 @@ ENTRY_TUP = (
     (K_BLOCKS_ALLOCATED, 0),
     (K_DIR, ""),  # Just the directory portion of the path.
     (K_ERROR_CONDITION, False),
-    (K_ERROR_FILENAME, ""),
     (K_ERROR_TEXT, ""),
     (K_EXTENSION, ""),  # Just the extension
     (K_FILENAME, ""),  # The filename and extension.
@@ -271,9 +268,20 @@ def sortDedupeList(listIn_):
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
 # * File Type Lists
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+
+FTL_ARCHIVES = [
+  ".lzma",
+  ".rar",
+  ".tgz",
+  ".zip",
+]
+
 FTL_CODE = [
   ".c",
   ".coffee",
+  ".htm",
+  ".html",
   ".js",
   ".php",
   ".pl",
@@ -330,7 +338,6 @@ FTL_ANIMATED_PICS = [
   ".apng",
   ".gif",
 ]
-
 
 FTL_SNDS = [
   ".au",
