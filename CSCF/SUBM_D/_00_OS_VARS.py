@@ -72,6 +72,7 @@ ALL_THE_KEYS = {
   "K_NEW_JUST_FILENAME_SUFFIX": "K_NEW_JUST_FILENAME_SUFFIX",
   "K_NEW_PATH": "K_NEW_PATH",
   "K_NUMS": "K_NUMS",
+  "K_PATH_PARTS": "K_PATH_PARTS",
   "K_PATH": "K_PATH",
   "K_QUIT": "K_QUIT",
   "K_R_OK": OS.R_OK,
@@ -98,6 +99,17 @@ ALL_THE_KEYS = {
   "KFT_VIDS": "KFT_VIDS",
   "KPL_PARTS": "KPL_PARTS",
   "KPL_PATH_ENTRY": "KPL_PATH_ENTRY",
+  "KTP_COLOUR": "KTP_COLOUR",
+  "KTP_DESC": "KTP_DESC",
+  "KTP_EXTENDED": "KTP_EXTENDED",
+  "KTP_LEAVE": "KTP_LEAVE",
+  "KTP_PAD_CHR": "KTP_PAD_CHR",
+  "KTP_PAD_DESC": "KTP_PAD_DESC",
+  "KTP_PAD_NUM": "KTP_PAD_NUM",
+  "KTP_POSITION": "KTP_POSITION",
+  "KTP_RECURSE": "KTP_RECURSE",
+  "KTP_SHOW_PROGRESS": "KTP_SHOW_PROGRESS",
+
 }
 locals().update(ALL_THE_KEYS)
 
@@ -208,6 +220,22 @@ MEDIA_TUP = (
 )
 def E_MEDIA():
   return dict((x, y) for x, y in MEDIA_TUP)
+
+
+PL_CLASS_DICT_TUPLE = (
+    (KTP_COLOUR, "#af33EE"),
+    (KTP_DESC, "progress"),
+    (KTP_EXTENDED, False),
+    (KTP_LEAVE, False),
+    (KTP_PAD_CHR, "…"),
+    (KTP_PAD_DESC, True),
+    (KTP_PAD_NUM, 17),
+    (KTP_POSITION, 0),
+    (KTP_SHOW_PROGRESS, True),
+  )
+def E_PL_CLASS_DICT() -> dict:
+  return dict((x, y) for x, y in PL_CLASS_DICT_TUPLE)
+
 
 
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
