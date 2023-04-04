@@ -1,7 +1,7 @@
 
 
 import toml as TOML
-from os import exists as EXISTS
+from os.path import exists as EXISTS
 
 
 def dictToTomlFile(*,

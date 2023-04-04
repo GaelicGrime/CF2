@@ -2010,13 +2010,22 @@ class plMyEntryList_C():
 
 
 def plDirList(*,
-    extended_=False,
-    recursive_=False,
-    rootDir_,
-  ):
+    extended_: bool = False,
+    recursive_: bool = False,
+    rootDir_: str,
+  ) -> list:
   # 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱ 1⟱
-  _fullName_ = f"""{rootDir_}/**/"""
-  _TPath_ = V.PLP()
+  _filename_ = "**/"
+  _thisRootDirEntry_ = CF_OS.PLP(rootDir_)
+  _numPartsRootDir_ = len(_thisRootDirEntry_.parts)
+  if (
+      (recursive_ is True)
+  ):
+    _listToUse_ = [X for X in _thisRootDirEntry_.glob(_filename_)]
+  else:
+    _listToUse_ = [X for X in _thisRootDirEntry_.glob(_filename_) if len(X.parts) == (_numPartsAbsDot_ + 1)]
+  _listToUse_.sort()
+
   # ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1
 
 
@@ -2166,7 +2175,6 @@ def returnMyPLEntry(*,
   _dictToRtn_[K_NEW_EXTENSION] = ""
   _dictToRtn_[K_NEW_JUST_FILENAME] = ""
   _dictToRtn_[K_NUMS] = -1
-  _dictToRtn_[K_PATH_PARTS] = _TPath_.parts
   _dictToRtn_[K_PATH] = _TPathStr_
   _dictToRtn_[K_SIZE] = _tempStat_.st_size
   _dictToRtn_[K_TIME_ACCESSED] = _tempStat_.st_atime
@@ -2213,6 +2221,7 @@ def returnMyPLEntry(*,
   # * End of Add extended data if requested.
   # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
 
+  _dictToRtn_ = dict(sorted(_dictToRtn_.items()))
   return _dictToRtn_
   # ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1
 
