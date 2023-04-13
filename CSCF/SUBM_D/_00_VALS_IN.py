@@ -12,6 +12,7 @@ CPAREN = ")"
 CRSTR = "\r"
 DBLDBLQT = "\"\""
 DBLQT = "\""
+DBLSGLQT = "''"
 ESC = "\x1b"
 NEWLINE = "\x0a"
 OBRCE = "{"
@@ -23,8 +24,8 @@ TABSTR = "\t"
 
 
 FTQ = f"""f{DBLQT}{DBLQT}{DBLQT}"""
-INDENT_IN = f"""⇉"""
-INDENT_OUT = f"""⇇"""
+INDENT_IN = "⇉"
+INDENT_OUT = "⇇"
 TRIQT = f"""{DBLQT}{DBLQT}{DBLQT}"""
 TRISQT = f"""{SGLQT}{SGLQT}{SGLQT}"""
 USER_CACHE_DIR = "~/.cache"
@@ -264,6 +265,10 @@ def PD(*,
   # ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1 ⟰1
 
 
+
+
+
+
 ALL_THE_VALS = {
   "BIN04": BIN04,
   "BIN08": BIN08,
@@ -281,6 +286,7 @@ ALL_THE_VALS = {
   "CPAREN": CPAREN,
   "CRSTR": CRSTR,
   "DBLDBLQT": DBLDBLQT,
+  "DBLSGLQT": DBLSGLQT,
   "DBLQT": DBLQT,
   "DICTMODE_KEYSTR": DICTMODE_KEYSTR,
   "DICTMODE_KEYVAL": DICTMODE_KEYVAL,
@@ -303,7 +309,7 @@ ALL_THE_VALS = {
   "INDENT_OUT": INDENT_OUT,
   "JSONCBRACKETS": JSONCBRACKETS,
   "JSONOBRACKETS": JSONOBRACKETS,
-  "LINESUP": LINESUP,
+  "L7INESUP": LINESUP,
   "MOVELEFT": MOVELEFT,
   "MOVETO": MOVETO,
   "NBKSPC": NBKSPC,

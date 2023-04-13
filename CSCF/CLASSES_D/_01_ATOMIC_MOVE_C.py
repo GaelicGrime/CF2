@@ -1,6 +1,6 @@
 
 
-from . import (
+from ..SUBM_D import (
     _00_VALS_IN as CF_V,
     _00_WHO_WHERE as CF_WW,
     _01_HASHES as CF_HASH,
