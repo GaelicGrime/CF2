@@ -9,9 +9,9 @@ from CSCF.SUBM_D import (
 locals().update(CF_V.ALL_THE_VALS)
 
 
-class list1_C():
+class dict_C():
   def __init__(self):
-    self.L = []
+    self.D = {}
 
   def __enter__(self):
     return self
@@ -19,11 +19,11 @@ class list1_C():
   def __exit__(self, *args_):
     pass
 
-  def __len__(self):
-    return len(self.L)
-
   def reset(self):
-    self.L = []
+    self.D = {}
+
+  def length(self):
+    return len(self.D)
 
   def str(self, *,
         recursive_=False,

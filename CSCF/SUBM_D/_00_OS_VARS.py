@@ -3,16 +3,17 @@
 # import magic as MAGIC
 #import stat as STAT
 from os import path as OSPATH
-from tqdm import tqdm as TQ_DM
-import pathlib as PL
-import glob as GLOB_
-import inspect as INS
+from tqdm import tqdm as TQ_DM  ## remove to _00_TQDM_C
+import pathlib as PL  ## remove to _00_PL_C
+import glob as GLOB_  ## remove to _00_GLOB
+import inspect as INS  ## remove to _00_INSPECT_C
 import os as OS
 import re as RE
-import subprocess as SP
+import subprocess as SP  ## remove to _00_SUBPROCESS_C
 import sys as SYS
 
 
+from CSCF.CONST_D import _00_PATHLIB_KEYS as PL_K
 from CSCF.SUBM_D import (
     _00_VALS_IN as CF_V,
     _00_WHO_WHERE as WW,
@@ -36,80 +37,14 @@ PLP = PL.Path
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
 # * Keys
 # * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
 ALL_THE_KEYS = {
-  "K_ALLOCATED_SIZE": "K_ALLOCATED_SIZE",
-  "K_BLOCKS_ALLOCATED": "K_BLOCKS_ALLOCATED",
-  "K_COLOR_DEPTH": "K_COLOR_DEPTH",
-  "K_COLORS": "K_COLORS",
-  "K_COLORSPACE": "K_COLORSPACE",
-  "K_DEFAULT": "K_DEFAULT",
-  "K_DIR": "K_DIR",
-  "K_ERROR_CONDITION": "K_ERROR_CONDITION",
-  "K_ERROR_TEXT": "K_ERROR_TEXT",
-  "K_EXTENSION": "K_EXTENSION",
   "K_F_OK": OS.F_OK,
-  "K_FILENAME": "K_FILENAME",
-  "K_FILETYPE": "K_FILETYPE",
-  "K_FORMAT": "K_FORMAT",
-  "K_FRAME": "K_FRAME",
-  "K_GEOMETRY_ORIGIN": "K_GEOMETRY_ORIGIN",
-  "K_GEOMETRY_PAGE": "K_GEOMETRY_PAGE",
-  "K_GID": "K_GID",
-  "K_I_CAN_EXECUTE": "K_I_CAN_EXECUTE",
-  "K_I_CAN_READ": "K_I_CAN_READ",
-  "K_I_CAN_WRITE": "K_I_CAN_WRITE",
-  "K_IS_A_DIR": "K_IS_A_DIR",
-  "K_IS_A_FILE": "K_IS_A_FILE",
-  "K_IS_A_KNOWN_FILE_TYPE": "K_IS_A_KNOWN_FILE_TYPE",
-  "K_IS_A_SYMLINK": "K_IS_A_SYMLINK",
-  "K_JUST_FILENAME": "K_JUST_FILENAME",
-  "K_LAST": "K_LAST",
-  "K_LIST": "K_LIST",
-  "K_MODE": "K_MODE",
-  "K_NEW_DIR": "K_NEW_DIR",
-  "K_NEW_EXTENSION": "K_NEW_EXTENSION",
-  "K_NEW_JUST_FILENAME": "K_NEW_JUST_FILENAME",
-  "K_NEW_JUST_FILENAME_SUFFIX": "K_NEW_JUST_FILENAME_SUFFIX",
-  "K_NEW_PATH": "K_NEW_PATH",
-  "K_NUMS": "K_NUMS",
-  "K_PATH": "K_PATH",
-  "K_QUIT": "K_QUIT",
   "K_R_OK": OS.R_OK,
-  "K_SIZE": "K_SIZE",
-  "K_TIME_ACCESSED": "K_TIME_ACCESSED",
-  "K_TIME_CHANGED": "K_TIME_CHANGED",
-  "K_TIME_CREATED": "K_TIME_CREATED",
-  "K_TIME_META_MODIFIED": "K_TIME_META_MODIFIED",
-  "K_UID": "K_UID",
-  "K_VERSION": "K_VERSION",
   "K_W_OK": OS.W_OK,
   "K_X_OK": OS.X_OK,
-  "KD_BLACK_NAME": "KD_BLACK_NAME",
-  "KD_WHITE_NAME": "KD_WHITE_NAME",
-  "KF_BLACK_NAME": "KF_BLACK_NAME",
-  "KF_WHITE_NAME": "KF_WHITE_NAME",
-  "KFT_CODE": "KFT_CODE",
-  "KFT_DATA": "KFT_DATA",
-  "KFT_DOCS": "KFT_DOCS",
-  "KFT_PICS": "KFT_PICS",
-  "KFT_SNDS": "KFT_SNDS",
-  "KFT_TEXT": "KFT_TEXT",
-  "KFT_UNKNOWN": "KFT_UNKNOWN",
-  "KFT_VIDS": "KFT_VIDS",
-  "KPL_PARTS": "KPL_PARTS",
-  "KPL_PATH_ENTRY": "KPL_PATH_ENTRY",
-  "KTP_COLOUR": "KTP_COLOUR",
-  "KTP_DESC": "KTP_DESC",
-  "KTP_EXTENDED": "KTP_EXTENDED",
-  "KTP_LEAVE": "KTP_LEAVE",
-  "KTP_PAD_CHR": "KTP_PAD_CHR",
-  "KTP_PAD_DESC": "KTP_PAD_DESC",
-  "KTP_PAD_NUM": "KTP_PAD_NUM",
-  "KTP_POSITION": "KTP_POSITION",
-  "KTP_RECURSE": "KTP_RECURSE",
-  "KTP_SHOW_PROGRESS": "KTP_SHOW_PROGRESS",
-
 }
+ALL_THE_KEYS.update(PL_K.ALL_THE_KEYS)
 locals().update(ALL_THE_KEYS)
 
 
@@ -225,7 +160,7 @@ PL_CLASS_DICT_TUPLE = (
     (KTP_COLOUR, "#af33EE"),
     (KTP_DESC, "progress"),
     (KTP_EXTENDED, False),
-    (KTP_LEAVE, False),
+    (KTP_LEAVE, True),
     (KTP_PAD_CHR, "…"),
     (KTP_PAD_DESC, True),
     (KTP_PAD_NUM, 17),
@@ -357,6 +292,7 @@ FTL_PICS = [
   ".jpeg",
   ".jpg",
   ".png",
+  ".psd",
   ".riff",
   ".webp",
 ]

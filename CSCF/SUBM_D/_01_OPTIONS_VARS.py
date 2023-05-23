@@ -49,6 +49,7 @@ ALL_THE_OPTION_KEYS = {
     "K_L_OPERATION": "K_L_OPERATION",
     "K_L_SPEWAGE": "K_L_SPEWAGE",
     "K_L_SPLASH": "K_L_SPLASH",
+    "K_LIST": "K_LIST",
     "K_LOUDNESS": "K_LOUDNESS",
     "K_METAVAR": "metavar",
     "K_NAME": "K_NAME",
@@ -61,6 +62,13 @@ ALL_THE_OPTION_KEYS = {
     "K_TYPE": "type",
     "K_USAGE": "usage",
     "K_VALUE": "K_VALUE",
+    "KL_DEBUG": "KL_DEBUG",
+    "KL_FUNCTION": "KL_FUNCTION",
+    "KL_MODULE": "KL_MODULE",
+    "KL_NONE": "KL_NONE",
+    "KL_OPERATION": "KL_OPERATION",
+    "KL_SPEWAGE": "KL_SPEWAGE",
+    "KL_SPLASH": "KL_SPLASH",
 }
 locals().update(ALL_THE_OPTION_KEYS)
 
@@ -453,7 +461,7 @@ def O_DRY_RUN():
     ]
   return V.O_CHOICES_MAKER(
       args_=_args_,
-      dest_="dry",
+      dest_="dryRun",
       help1_="Boolean set to 'true' to do nothing and print what would be done if dryRun were 'false'",
     )
   # fold here ⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1⟰1

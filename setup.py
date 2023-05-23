@@ -1,53 +1,24 @@
+import pathlib
 
+from setuptools import find_packages, setup
 
-#
-#
-# * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
-# * start of CSCF.setup.py
-# * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
-#
-#
+# The directory containing this file
+HERE = pathlib.Path(__file__).parent
 
-
-from setuptools import find_packages
-from setuptools import setup
-
+# The text of the README file
+README = (HERE / "README.md").read_text()
 
 setup(
-  author="GaelicGrime",
-  author_email="will.angus.blaylock@gmail.com",
-  license="GPLv3",
-  name="CSCF",
-  provides="CSCF",
-  url="https://github.com/ComfortableSoftware/commonFunctions_py",
-  version="0.2.1",
-  package_dir={"CSCF": "CSCF"},
-  package_data={
-      "CSCF": [
-          "../doc/*",
-          "CLASSES_D/*",
-          "CONST_D/*",
-          "DEFS_D/*",
-          "DOCS_D/*",
-          "KEYS_D/*",
-          "SUBM_D/*",
-      ]
-  },
-  packages=find_packages(),
-  install_requires=[
-  ],
-  extras_require={
-      "hashing": ["hashlib"],
-      "pickling": ["pickle"],
-      "databases": ["mysql"],
-      "time-date-stuff": [
-          "datedelta",
-          "datetime",
-          "dateutil",
-          "time",
-      ],
-      "debugging": [
-          "inspect",
-      ],
-  }
+    name="CSCF",
+    version="0.2.3-1",
+    author="GaelicGrime",
+    author_email="will.angus.blaylock@gmail.com",
+    url="https://github.com/ComfortableSoftware/commonFunctions_py",
+    description="Opinionated wrappers around many libraries.",
+    long_description=README,
+    long_description_content_type="text/markdown",
+    packages=find_packages(exclude=("tests",)),
+    install_requires=[],
+    # classifiers=[],
+    python_requires=">=3.2",
 )
